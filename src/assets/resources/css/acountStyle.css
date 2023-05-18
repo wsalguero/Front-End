@@ -1,0 +1,71 @@
+body {
+    background-color: #ffffff;
+}
+
+img{
+    margin-top: 100px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 100vh;
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: #dfdfdf;
+   
+}
+
+input[type="file"]::file-selector-button {
+    background-color: aquamarine;
+    color: #000000;
+    border: 1px solid #000000;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Estilo para ocultar el nombre del archivo seleccionado */
+  input[type="file"]::file-name {
+    display: none;
+  }
+
+input{
+    display: flex;
+    justify-content: left;
+    align-items: center; 
+    margin-top: 20px;
+}
+
+header {
+    background-color: aquamarine;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    
+}
+
+#inputs {
+    height: 50px;
+    width: 70%;
+}
+
+#datosusuario{
+    margin-top: 20px;
+}
+
+#inputsDatos{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    text-align: left;
+}
+
+.alert-left {
+    position: fixed;
+    top: 60%;
+    left: 200px;
+    transform: translateY(-50%);
+  }
+.content {
+    text-align: center;
+}
